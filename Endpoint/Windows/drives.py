@@ -13,7 +13,7 @@ import subprocess
 from random import randint
 import random
 
-## Thisd defines numer of honey drives which can be added at the endpoint.
+## The parameter defines numer of honey drives which will be added at the endpoint.
 number_hmapped_drives = 2
 
 def get_drives():
