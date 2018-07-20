@@ -1,5 +1,5 @@
-## The code will create fake directory and honey mapped drive and
-##
+## The code will create fake directory map honey mapped drive to it. 
+##  Author Abhi.
 import math
 import sys
 import re
