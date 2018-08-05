@@ -21,12 +21,12 @@ import names
 
 tpath = "/tmp"
 ip_parsing_string = "Nmap scan report for "
-number_arp_cache = 10
+number_up_cache = 10
 
 # This part of the code scans the network and generates the 
 # IP Address which can be used as entry for ARP cache.
 
-def honey_arp_cache():
+def honey_up_cache():
     s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     s.connect(("8.8.8.8",80))
     IPAddr = (s.getsockname()[0])
@@ -84,7 +84,7 @@ def honey_arp_cache():
 
 def main():
 	try:
-            honey_arp_cache()
+            honey_up_cache()
 	except Exception as e:
             traceback.print_exc()
 	
