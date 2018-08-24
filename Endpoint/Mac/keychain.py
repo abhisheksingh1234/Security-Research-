@@ -63,7 +63,7 @@ def honey_up_cache():
 
     try:
 
-        for i in range(0,number_arp_cache):
+        for i in range(0,number_up_cache):
             last_digit = randint(0,255)
             if bv[int(last_digit)] == 0:
                 scanip = IPAddr.split(".")[:3]
