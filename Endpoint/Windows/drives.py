@@ -1,4 +1,4 @@
-## The code will create fake directory map honey mapped drive to it. 
+## The code will create fake directory, map honey drive to it. 
 ##  Author Abhi.
 import math
 import sys
