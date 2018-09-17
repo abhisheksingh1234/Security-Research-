@@ -1,5 +1,5 @@
-# http://code.activestate.com/recipes/578625-python-ast-to-xml/
-# Licens MIT License 
+# Code is available at http://code.activestate.com/recipes/578625-python-ast-to-xml/
+# It is under MIT License 
 
 import ast, re, sys
 from xml.dom import minidom
