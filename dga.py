@@ -1,8 +1,8 @@
 # Author abhi
 # The code detects DGA domains
-# The function which calculates the entropy shannon_entropy is available at 
+# The function which calculates the shannon_entropy is available at 
 # http://code.activestate.com/recipes/577476-shannon-entropy-calculation/  under MIT license. 
-# The code computes the Shannon Entropy if it is greater than 4.1 it marks it as DGA or else probable DGA. 
+# If the Shannon Entropy of the domain is greater than 4.1 it marks it as a DGA or else labels it as a probable DGA. 
 # This code is under MIT License. 
 
 
