@@ -1,7 +1,7 @@
-# Code computes the similarity of the JS file from the existing signatures stored under signatures. 
-# It uses Esprima for the lexical analysis of the code. Then make call to ast2xl to convert into XML. 
-# The XML is compared with the stored signatures which will be under signatures 
-# To invoke the script use  python similarity.py <name.js>
+# Code computes the similarity of the JS file frofom the existing signatures stored under signatures. 
+# It uses Esprima for the lexical analysis. Then make call to ast2xl to convert into XML. 
+# The XML is compared with the stored signatures. These signatures will be in the signatures folder. 
+# To invoke the script: python similarity.py <name.js>
 # To compute signatures node esprima.js <name.js> > signature.
 # python ast2xl signature > signature.xml
 
