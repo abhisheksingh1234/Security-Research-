@@ -1,7 +1,7 @@
 ## Author Abhishek. 
 ## Version 0.0 
 ## The code will perform network scan to detect the services in the network 
-## Compute the IP address which are not in use and use them as decoys. These decoy IP address will be added in the ARP cache the endpoint. 
+## It will compute the IP address which are not in use and use them as decoys. These decoy IP address will be added in the ARP cache the endpoint. 
 ## Besides ARP cach, the honey data can be in the  RDP, DNS Tables, key stores,
 ## honey mapped drives, honey files, VPN Links, Browser Cache, fake certificates/ private
 ## keys and honey passwords in lsass.exe. 
